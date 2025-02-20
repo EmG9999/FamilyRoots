@@ -11,19 +11,21 @@ struct Arbre: Codable {
     var nomArbre: String
     var quantiteBranche: Int
     var typeArbre: String
-    
-    init(id: UUID, nomArbre: String, quantiteBranche: Int, typeArbre: String) {
-        self.id = id
-        self.nomArbre = nomArbre
-        self.quantiteBranche = quantiteBranche
-        self.typeArbre = typeArbre
-    }
-    
-    init() {
-        self.id = UUID()
-        self.nomArbre = "Barthes"
-        self.quantiteBranche = 5
-        self.typeArbre = "arbre"
-    }
-    
+}
+struct CreateArbreDTO: Codable {
+    let nomArbre: String
+    let quantiteBranche: Int
+    let typeArbreID: UUID
+}
+struct ArbreDTO: Codable {
+    let id: UUID?
+    let nomArbre: String
+    let quantiteBranche: Int
+    let typeArbre: TypeArbreDTO
+}
+
+struct TypeArbreDTO: Codable {
+    let id: UUID?
+    let typeArbre: String
+    let imageArbre: String
 }

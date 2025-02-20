@@ -11,6 +11,15 @@
 		7647D41B2D54ED26002298F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647D41A2D54ED26002298F2 /* ContentView.swift */; };
 		7647D41D2D54ED27002298F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7647D41C2D54ED27002298F2 /* Assets.xcassets */; };
 		7647D4202D54ED27002298F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7647D41F2D54ED27002298F2 /* Preview Assets.xcassets */; };
+		76A73ED02D5D1968009DDCCA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A73ECF2D5D1968009DDCCA /* User.swift */; };
+		76B201B52D672D31006E9E61 /* Famille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201B42D672D31006E9E61 /* Famille.swift */; };
+		76B201B82D673683006E9E61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B201B72D673683006E9E61 /* Security.framework */; };
+		76B201BB2D6736ED006E9E61 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201BA2D6736ED006E9E61 /* Login.swift */; };
+		76B201BD2D67376F006E9E61 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201BC2D67376F006E9E61 /* UserViewModel.swift */; };
+		76B201C02D67394D006E9E61 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201BF2D67394D006E9E61 /* Token.swift */; };
+		76B201C22D673978006E9E61 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201C12D673978006E9E61 /* KeychainManager.swift */; };
+		76B201C42D673D5D006E9E61 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201C32D673D5D006E9E61 /* AuthManager.swift */; };
+		76B201C62D673D7F006E9E61 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B201C52D673D7F006E9E61 /* SignUp.swift */; };
 		76B6CA4B2D54F2570028A7B5 /* Arbre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6CA4A2D54F2570028A7B5 /* Arbre.swift */; };
 		76B6CA4D2D54F4D80028A7B5 /* ArbreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6CA4C2D54F4D80028A7B5 /* ArbreViewModel.swift */; };
 		76B6CA4F2D54F61B0028A7B5 /* ArbreMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6CA4E2D54F61B0028A7B5 /* ArbreMainView.swift */; };
@@ -22,6 +31,15 @@
 		7647D41A2D54ED26002298F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7647D41C2D54ED27002298F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7647D41F2D54ED27002298F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76A73ECF2D5D1968009DDCCA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		76B201B42D672D31006E9E61 /* Famille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Famille.swift; sourceTree = "<group>"; };
+		76B201B72D673683006E9E61 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		76B201BA2D6736ED006E9E61 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		76B201BC2D67376F006E9E61 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		76B201BF2D67394D006E9E61 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		76B201C12D673978006E9E61 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		76B201C32D673D5D006E9E61 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		76B201C52D673D7F006E9E61 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		76B6CA4A2D54F2570028A7B5 /* Arbre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbre.swift; sourceTree = "<group>"; };
 		76B6CA4C2D54F4D80028A7B5 /* ArbreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreViewModel.swift; sourceTree = "<group>"; };
 		76B6CA4E2D54F61B0028A7B5 /* ArbreMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreMainView.swift; sourceTree = "<group>"; };
@@ -32,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B201B82D673683006E9E61 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +62,7 @@
 			children = (
 				7647D4172D54ED26002298F2 /* FamilyRoots */,
 				7647D4162D54ED26002298F2 /* Products */,
+				76B201B62D673683006E9E61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,10 +96,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		76B201B62D673683006E9E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76B201B72D673683006E9E61 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76B201B92D6736D5006E9E61 /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				76B201BA2D6736ED006E9E61 /* Login.swift */,
+				76B201C52D673D7F006E9E61 /* SignUp.swift */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		76B201BE2D67393E006E9E61 /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				76B201BF2D67394D006E9E61 /* Token.swift */,
+				76B201C12D673978006E9E61 /* KeychainManager.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
 		76B6CA472D54F20D0028A7B5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				76B6CA4A2D54F2570028A7B5 /* Arbre.swift */,
+				76A73ECF2D5D1968009DDCCA /* User.swift */,
+				76B201B42D672D31006E9E61 /* Famille.swift */,
+				76B201BE2D67393E006E9E61 /* Token */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				76B6CA4C2D54F4D80028A7B5 /* ArbreViewModel.swift */,
+				76B201BC2D67376F006E9E61 /* UserViewModel.swift */,
+				76B201C32D673D5D006E9E61 /* AuthManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -95,6 +146,7 @@
 		76B6CA492D54F2220028A7B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				76B201B92D6736D5006E9E61 /* Authentification */,
 				76B6CA4E2D54F61B0028A7B5 /* ArbreMainView.swift */,
 			);
 			path = View;
@@ -171,10 +223,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B6CA4B2D54F2570028A7B5 /* Arbre.swift in Sources */,
+				76B201C42D673D5D006E9E61 /* AuthManager.swift in Sources */,
+				76B201C02D67394D006E9E61 /* Token.swift in Sources */,
 				7647D41B2D54ED26002298F2 /* ContentView.swift in Sources */,
+				76B201B52D672D31006E9E61 /* Famille.swift in Sources */,
+				76A73ED02D5D1968009DDCCA /* User.swift in Sources */,
 				7647D4192D54ED26002298F2 /* FamilyRootsApp.swift in Sources */,
+				76B201C22D673978006E9E61 /* KeychainManager.swift in Sources */,
 				76B6CA4D2D54F4D80028A7B5 /* ArbreViewModel.swift in Sources */,
 				76B6CA4F2D54F61B0028A7B5 /* ArbreMainView.swift in Sources */,
+				76B201BD2D67376F006E9E61 /* UserViewModel.swift in Sources */,
+				76B201C62D673D7F006E9E61 /* SignUp.swift in Sources */,
+				76B201BB2D6736ED006E9E61 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

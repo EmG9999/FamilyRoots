@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct FamilyRootsApp: App {
+    @StateObject private var authManager = AuthManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if authManager.isLoggedIn {
+                ArbreMainView()
+                    .environmentObject(authManager)
+            } else {
+                Login()
+                    .environmentObject(authManager)
+            }
         }
     }
 }
